@@ -14,7 +14,7 @@ cd Python-3.6.4
 
 make altinstall
 
-rm -y /usr/src/Python-3.6.4.tgz
+yes | rm /usr/src/Python-3.6.4.tgz
 
 cd /usr/local/bin/
 
@@ -26,13 +26,13 @@ cd /python3-kubernetes/bin
 
 source activate
 
-cd /kubernetes 
+cd /kubernetes/kubernetes-cluster-setup-using-kubespray
 
 pip3.6 install -r requirements.txt
 
-yum install -y http://opensource.wandisco.com/centos/6/git/x86_64/wandisco-git-release-6-1.noarch.rpm
+#yum install -y http://opensource.wandisco.com/centos/6/git/x86_64/wandisco-git-release-6-1.noarch.rpm
 
-yum install -y git
+#yum install -y git
 
 git clone https://github.com/manishjindal/kubespray.git
 
