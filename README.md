@@ -37,6 +37,10 @@ You need not to install anything on this machine (including ansible) everything 
 
 * Modify Hosts File
 
+```
+cd kubernetes-cluster-setup-using-kubespray
+```
+
 After Cloning the Repo modify hosts.ini file 
 
 ```$xslt
