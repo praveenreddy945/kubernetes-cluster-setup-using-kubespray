@@ -2,7 +2,7 @@
 
 Setup has been tried on CentOs7 Digital Ocean Machines.
 
-##SetUp
+## SetUp
 
 * 3 CentOs Machines (2GB RAM) 1 CentOs Machine (1GB RAM)
   
