@@ -1,8 +1,8 @@
 # kubernetes-cluster-setup-using-kubespray
 
-Setup has been tried on CentOs7 Digital Ocean Machines.
+Setup has been tried and tested on CentOs7 Digital Ocean Machines.
 
-##SetUp
+## SetUp
 
 * 3 CentOs Machines (2GB RAM)
   
