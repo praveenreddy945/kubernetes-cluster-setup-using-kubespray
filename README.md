@@ -4,9 +4,7 @@ Setup has been tried and tested on CentOs7 Digital Ocean Machines.
 
 ## SetUp
 
-* 3 CentOs Machines (2GB RAM)
-  
-  3 Cluster Node  (node1,node2,node3) and one of the node will also work as ansible-master let say (node1)
+* Create 3 CentOs Machines node1,node2,node3 with 2GB RAM each. One of the node here will also work as ansible-master let say (node1)
   
 * Login to Ansible Master Machine (node1) 
 
