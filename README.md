@@ -10,12 +10,19 @@ Setup has been tried on CentOs7 Digital Ocean Machines.
   
   1 Node For ansible operation (Ansible-master)
   
-* Login to Ansible Master Machine (node1) 
+* Login to Ansible Master Machine (Ansible-master) 
 
 * Create Empty Directory
 ```$xslt
 mkdir /kubernetes
 cd /kubernetes
+```
+
+* Install Git if not present 
+```
+yum install -y http://opensource.wandisco.com/centos/6/git/x86_64/wandisco-git-release-6-1.noarch.rpm
+
+yum install -y git
 ```
 
 * Clone Repository
