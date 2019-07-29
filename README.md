@@ -27,7 +27,7 @@ yum install -y git
 
 * Clone Repository
 ```
-git clone https://github.com/manishjindal/kubernetes-cluster-setup-using-kubespray.git
+git clone https://github.com/praveenreddy945/kubernetes-cluster-setup-using-kubespray.git
 ```
 
 Make Sure Ansible master has access to all three node for controlling the machine.
