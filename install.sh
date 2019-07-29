@@ -40,4 +40,4 @@ yes | cp -f hosts.ini kubespray/inventory/mycluster/hosts.ini
 
 cd kubespray
 
-ansible-playbook -i inventory/mycluster/hosts.ini cluster.yml
+ansible-playbook -i inventory/mycluster/hosts.ini cluster.yml  --private-key=/root/ec2-user.pem -su --su-user-=ec2-user -u ec2-user
