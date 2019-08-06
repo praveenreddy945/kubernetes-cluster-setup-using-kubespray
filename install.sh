@@ -34,7 +34,7 @@ pip3.6 install -r requirements.txt
 
 #yum install -y git
 
-git clone https://github.com/praveenreddy945/kubespray.git
+git clone https://github.com/kubernetes-sigs/kubespray.git
 
 yes | cp -f hosts.ini kubespray/inventory/mycluster/hosts.ini
 
