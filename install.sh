@@ -26,7 +26,7 @@ cd /python3-kubernetes/bin
 
 source activate
 
-cd /kubernetes/kubernetes-cluster-setup-using-kubespray
+cd /kubernetesnew/kubernetes-cluster-setup-using-kubespray
 
 pip3.6 install -r requirements.txt
 
